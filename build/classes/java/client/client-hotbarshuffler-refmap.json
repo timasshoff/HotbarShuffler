@@ -1,17 +1,11 @@
 {
   "mappings": {
-    "com/skytendo/hotbarshuffler/mixin/client/InGameHudAccessor": {
-      "client": "field_2035:Lnet/minecraft/class_310;"
-    },
     "com/skytendo/hotbarshuffler/mixin/client/InGameHudMixin": {
       "renderHotbar(Lnet/minecraft/client/gui/DrawContext;Lnet/minecraft/client/render/RenderTickCounter;)V": "Lnet/minecraft/class_329;method_1759(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
     }
   },
   "data": {
     "named:intermediary": {
-      "com/skytendo/hotbarshuffler/mixin/client/InGameHudAccessor": {
-        "client": "field_2035:Lnet/minecraft/class_310;"
-      },
       "com/skytendo/hotbarshuffler/mixin/client/InGameHudMixin": {
         "renderHotbar(Lnet/minecraft/client/gui/DrawContext;Lnet/minecraft/client/render/RenderTickCounter;)V": "Lnet/minecraft/class_329;method_1759(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
       }
