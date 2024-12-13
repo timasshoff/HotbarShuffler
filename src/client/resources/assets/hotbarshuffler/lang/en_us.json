@@ -1,0 +1,21 @@
+{
+  "hotbarshuffler.midnightconfig.title": "Hotbar Shuffler Config",
+
+  "hotbarshuffler.midnightconfig.slotComments": "Here you can enable and disable slots being used by the shuffling. Active the shuffler using the keybinding (default F7).",
+  "hotbarshuffler.midnightconfig.slot1": "Slot 1",
+  "hotbarshuffler.midnightconfig.slot2": "Slot 2",
+  "hotbarshuffler.midnightconfig.slot3": "Slot 3",
+  "hotbarshuffler.midnightconfig.slot4": "Slot 4",
+  "hotbarshuffler.midnightconfig.slot5": "Slot 5",
+  "hotbarshuffler.midnightconfig.slot6": "Slot 6",
+  "hotbarshuffler.midnightconfig.slot7": "Slot 7",
+  "hotbarshuffler.midnightconfig.slot8": "Slot 8",
+  "hotbarshuffler.midnightconfig.slot9": "Slot 9",
+
+  "hotbarshuffler.message.activated": "§aHotbar shuffler activated.",
+  "hotbarshuffler.message.deactivated": "§cHotbar shuffler deactivated.",
+
+  "key.hotbarshuffler.config": "Open config",
+  "key.hotbarshuffler.activate": "Activate hotbar shuffler",
+  "category.hotbarshuffler": "Hotbar Shuffler"
+}

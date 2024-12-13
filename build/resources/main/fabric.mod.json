@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "hotbarshuffler",
+	"version": "r1.0.0-1.21.4",
+	"name": "HotbarShuffler",
+	"description": "HotbarShuffler is a mod that allows you to randomize your hotbar to support you for example when texturing a surface.",
+	"authors": [
+		"Skytendo06"
+	],
+	"contact": {
+		"sources": "https://github.com/timasshoff/HotbarShuffler"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hotbarshuffler/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.skytendo.hotbarshuffler.HotbarShuffler"
+		],
+		"client": [
+			"com.skytendo.hotbarshuffler.HotbarShufflerClient"
+		]
+	},
+	"mixins": [
+		"hotbarshuffler.mixins.json",
+		{
+			"config": "hotbarshuffler.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
